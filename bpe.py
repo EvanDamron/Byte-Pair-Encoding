@@ -176,7 +176,7 @@ if __name__ == '__main__':
 
 
     RESULTS_FILE = "bpe_analysis_results.txt"
-    PLOT_FILE = "../sequence_length_vs_vocab.png"
+    PLOT_FILE = "sequence_length_vs_vocab.png"
 
     # --- Load Dataset ---
     logging.info(f"Loading {NUM_DOCS_TO_TRAIN} documents from '{DATASET_NAME}'...")
