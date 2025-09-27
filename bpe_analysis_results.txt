@@ -1,0 +1,451 @@
+BPE Tokenizer Analysis Report
+=============================
+
+## Analysis for Vocab Size: 1000
+
+**Training Time:** 88.16 seconds
+
+--- First 20 Merges ---
+Merge # | Token 1 | Token 2 | Resulting Token
+--------+---------+---------+----------------
+1       | 'e'     | ' '     | 'e '           
+2       | 'i'     | 'n'     | 'in'           
+3       | 's'     | ' '     | 's '           
+4       | 't'     | 'h'     | 'th'           
+5       | 'a'     | 'n'     | 'an'           
+6       | 'o'     | 'n'     | 'on'           
+7       | 'e'     | 'r'     | 'er'           
+8       | 'a'     | 't'     | 'at'           
+9       | 'e'     | 'n'     | 'en'           
+10      | 'd'     | ' '     | 'd '           
+11      | 'a'     | 'l'     | 'al'           
+12      | 'in'    | 'g'     | 'ing'          
+13      | 'o'     | 'r'     | 'or'           
+14      | 'r'     | 'e'     | 're'           
+15      | ','     | ' '     | ', '           
+16      | 'a'     | 'r'     | 'ar'           
+17      | 't'     | ' '     | 't '           
+18      | 't'     | 'i'     | 'ti'           
+19      | 'ing'   | ' '     | 'ing '         
+20      | 'y'     | ' '     | 'y '           
+
+--- Last 20 Merges ---
+Merge # | Token 1 | Token 2   | Resulting Token
+--------+---------+-----------+----------------
+723     | 'r'     | 'it'      | 'rit'          
+724     | 's'     | 'ur'      | 'sur'          
+725     | 's '    | 'the '    | 's the '       
+726     | 'on'    | 'e '      | 'one '         
+727     | 're'    | 'present' | 'represent'    
+728     | 'ar'    | 'y '      | 'ary '         
+729     | 'gener' | 'ated '   | 'generated '   
+730     | 'tex'   | 't'       | 'text'         
+731     | 'avail' | 'able '   | 'available '   
+732     | '0'     | ' '       | '0 '           
+733     | '3'     | ' '       | '3 '           
+734     | 'f'     | 'ur'      | 'fur'          
+735     | 'g'     | 'o'       | 'go'           
+736     | 'de'    | 'd '      | 'ded '         
+737     | 'ac'    | 'k'       | 'ack'          
+738     | 'em'    | 'ent '    | 'ement '       
+739     | 'op'    | 'tim'     | 'optim'        
+740     | 'L'     | ' '       | 'L '           
+741     | 'an'    | 'not'     | 'annot'        
+742     | 'a '    | 'new '    | 'a new '       
+
+**Round-trip Fidelity (50 samples):** 100.00%
+
+**Single Document Round-trip Example:**
+  - **Original:** In this work we explore recent advances in Recurrent Neural Networks for
+large scale Language Modeling, a task central to language understanding. We
+extend current models to deal with two key challenges present in this task:
+corpora and vocabulary sizes, and complex, long term structure of language. We
+perform an exhaustive study on techniques such as character Convolutional
+Neural Networks or Long-Short Term Memory, on the One Billion Word Benchmark.
+Our best single model significantly improves state-of-the-art perplexity from
+51.3 down to 30.0 (whilst reducing the number of parameters by a factor of 20),
+while an ensemble of models sets a new record by improving perplexity from 41.0
+down to 23.7. We also release these models for the NLP and ML community to
+study and improve upon.
+  - **Decoded:** In this work we explore recent advances in Recurrent Neural Networks for
+large scale Language Modeling, a task central to language understanding. We
+extend current models to deal with two key challenges present in this task:
+corpora and vocabulary sizes, and complex, long term structure of language. We
+perform an exhaustive study on techniques such as character Convolutional
+Neural Networks or Long-Short Term Memory, on the One Billion Word Benchmark.
+Our best single model significantly improves state-of-the-art perplexity from
+51.3 down to 30.0 (whilst reducing the number of parameters by a factor of 20),
+while an ensemble of models sets a new record by improving perplexity from 41.0
+down to 23.7. We also release these models for the NLP and ML community to
+study and improve upon.
+  - **Success:** True
+
+---
+
+## Analysis for Vocab Size: 2000
+
+**Training Time:** 178.84 seconds
+
+--- First 20 Merges ---
+Merge # | Token 1 | Token 2 | Resulting Token
+--------+---------+---------+----------------
+1       | 'e'     | ' '     | 'e '           
+2       | 'i'     | 'n'     | 'in'           
+3       | 's'     | ' '     | 's '           
+4       | 't'     | 'h'     | 'th'           
+5       | 'a'     | 'n'     | 'an'           
+6       | 'o'     | 'n'     | 'on'           
+7       | 'e'     | 'r'     | 'er'           
+8       | 'a'     | 't'     | 'at'           
+9       | 'e'     | 'n'     | 'en'           
+10      | 'd'     | ' '     | 'd '           
+11      | 'a'     | 'l'     | 'al'           
+12      | 'in'    | 'g'     | 'ing'          
+13      | 'o'     | 'r'     | 'or'           
+14      | 'r'     | 'e'     | 're'           
+15      | ','     | ' '     | ', '           
+16      | 'a'     | 'r'     | 'ar'           
+17      | 't'     | ' '     | 't '           
+18      | 't'     | 'i'     | 'ti'           
+19      | 'ing'   | ' '     | 'ing '         
+20      | 'y'     | ' '     | 'y '           
+
+--- Last 20 Merges ---
+Merge # | Token 1 | Token 2 | Resulting Token
+--------+---------+---------+----------------
+1723    | 'empir' | 'ical ' | 'empirical '   
+1724    | 'deplo' | 'y'     | 'deploy'       
+1725    | '4'     | '0'     | '40'           
+1726    | 'A'     | 'l'     | 'Al'           
+1727    | 'G'     | 'en'    | 'Gen'          
+1728    | 'c'     | 'ate'   | 'cate'         
+1729    | 'd'     | '-'     | 'd-'           
+1730    | 'h'     | 'op'    | 'hop'          
+1731    | 'in'    | 'iti'   | 'initi'        
+1732    | 'in'    | 'ci'    | 'inci'         
+1733    | 'at'    | 'tri'   | 'attri'        
+1734    | 'ing'   | 'ly '   | 'ingly '       
+1735    | 're'    | 'al-'   | 'real-'        
+1736    | 'ro'    | 'bo'    | 'robo'         
+1737    | 'ro'    | 'bu'    | 'robu'         
+1738    | 'to '   | 'a '    | 'to a '        
+1739    | 'co'    | 'ver'   | 'cover'        
+1740    | 'po'    | 'int'   | 'point'        
+1741    | 'me'    | 'chan'  | 'mechan'       
+1742    | 'tic'   | 'ally ' | 'tically '     
+
+**Round-trip Fidelity (50 samples):** 100.00%
+
+**Single Document Round-trip Example:**
+  - **Original:** Recent studies have alarmed that many online hate speeches are implicit. With
+its subtle nature, the explainability of the detection of such hateful speech
+has been a challenging problem. In this work, we examine whether ChatGPT can be
+used for providing natural language explanations (NLEs) for implicit hateful
+speech detection. We design our prompt to elicit concise ChatGPT-generated NLEs
+and conduct user studies to evaluate their qualities by comparison with
+human-written NLEs. We discuss the potential and limitations of ChatGPT in the
+context of implicit hateful speech research.
+  - **Decoded:** Recent studies have alarmed that many online hate speeches are implicit. With
+its subtle nature, the explainability of the detection of such hateful speech
+has been a challenging problem. In this work, we examine whether ChatGPT can be
+used for providing natural language explanations (NLEs) for implicit hateful
+speech detection. We design our prompt to elicit concise ChatGPT-generated NLEs
+and conduct user studies to evaluate their qualities by comparison with
+human-written NLEs. We discuss the potential and limitations of ChatGPT in the
+context of implicit hateful speech research.
+  - **Success:** True
+
+---
+
+## Analysis for Vocab Size: 4000
+
+**Training Time:** 341.72 seconds
+
+--- First 20 Merges ---
+Merge # | Token 1 | Token 2 | Resulting Token
+--------+---------+---------+----------------
+1       | 'e'     | ' '     | 'e '           
+2       | 'i'     | 'n'     | 'in'           
+3       | 's'     | ' '     | 's '           
+4       | 't'     | 'h'     | 'th'           
+5       | 'a'     | 'n'     | 'an'           
+6       | 'o'     | 'n'     | 'on'           
+7       | 'e'     | 'r'     | 'er'           
+8       | 'a'     | 't'     | 'at'           
+9       | 'e'     | 'n'     | 'en'           
+10      | 'd'     | ' '     | 'd '           
+11      | 'a'     | 'l'     | 'al'           
+12      | 'in'    | 'g'     | 'ing'          
+13      | 'o'     | 'r'     | 'or'           
+14      | 'r'     | 'e'     | 're'           
+15      | ','     | ' '     | ', '           
+16      | 'a'     | 'r'     | 'ar'           
+17      | 't'     | ' '     | 't '           
+18      | 't'     | 'i'     | 'ti'           
+19      | 'ing'   | ' '     | 'ing '         
+20      | 'y'     | ' '     | 'y '           
+
+--- Last 20 Merges ---
+Merge # | Token 1    | Token 2    | Resulting Token   
+--------+------------+------------+-------------------
+3723    | 'regar'    | 'ding '    | 'regarding '      
+3724    | 'general-' | 'purpose ' | 'general-purpose '
+3725    | 'open-en'  | 'ded '     | 'open-ended '     
+3726    | 'vocab'    | 'ular'     | 'vocabular'       
+3727    | 'arbit'    | 'r'        | 'arbitr'          
+3728    | ' '        | 'on '      | ' on '            
+3729    | '('        | '3'        | '(3'              
+3730    | ')'        | '. Our '   | '). Our '         
+3731    | '1'        | '2'        | '12'              
+3732    | '1'        | '4'        | '14'              
+3733    | '1'        | ') '       | '1) '             
+3734    | '1'        | '% '       | '1% '             
+3735    | '8'        | '% '       | '8% '             
+3736    | 'A'        | 'E'        | 'AE'              
+3737    | 'A'        | 'L'        | 'AL'              
+3738    | 'A'        | 'n'        | 'An'              
+3739    | 'A'        | 'lex'      | 'Alex'            
+3740    | 'C'        | 'C'        | 'CC'              
+3741    | 'C'        | 'ra'       | 'Cra'             
+3742    | 'F'        | 'L'        | 'FL'              
+
+**Round-trip Fidelity (50 samples):** 100.00%
+
+**Single Document Round-trip Example:**
+  - **Original:** Advances in language modeling architectures and the availability of large
+text corpora have driven progress in automatic text generation. While this
+results in models capable of generating coherent texts, it also prompts models
+to internalize social biases present in the training corpus. This paper aims to
+quantify and reduce a particular type of bias exhibited by language models:
+bias in the sentiment of generated text. Given a conditioning context (e.g., a
+writing prompt) and a language model, we analyze if (and how) the sentiment of
+the generated text is affected by changes in values of sensitive attributes
+(e.g., country names, occupations, genders) in the conditioning context using a
+form of counterfactual evaluation. We quantify sentiment bias by adopting
+individual and group fairness metrics from the fair machine learning
+literature, and demonstrate that large-scale models trained on two different
+corpora (news articles, and Wikipedia) exhibit considerable levels of bias. We
+then propose embedding and sentiment prediction-derived regularization on the
+language model's latent representations. The regularizations improve fairness
+metrics while retaining comparable levels of perplexity and semantic
+similarity.
+  - **Decoded:** Advances in language modeling architectures and the availability of large
+text corpora have driven progress in automatic text generation. While this
+results in models capable of generating coherent texts, it also prompts models
+to internalize social biases present in the training corpus. This paper aims to
+quantify and reduce a particular type of bias exhibited by language models:
+bias in the sentiment of generated text. Given a conditioning context (e.g., a
+writing prompt) and a language model, we analyze if (and how) the sentiment of
+the generated text is affected by changes in values of sensitive attributes
+(e.g., country names, occupations, genders) in the conditioning context using a
+form of counterfactual evaluation. We quantify sentiment bias by adopting
+individual and group fairness metrics from the fair machine learning
+literature, and demonstrate that large-scale models trained on two different
+corpora (news articles, and Wikipedia) exhibit considerable levels of bias. We
+then propose embedding and sentiment prediction-derived regularization on the
+language model's latent representations. The regularizations improve fairness
+metrics while retaining comparable levels of perplexity and semantic
+similarity.
+  - **Success:** True
+
+---
+
+## Analysis for Vocab Size: 8000
+
+**Training Time:** 590.93 seconds
+
+--- First 20 Merges ---
+Merge # | Token 1 | Token 2 | Resulting Token
+--------+---------+---------+----------------
+1       | 'e'     | ' '     | 'e '           
+2       | 'i'     | 'n'     | 'in'           
+3       | 's'     | ' '     | 's '           
+4       | 't'     | 'h'     | 'th'           
+5       | 'a'     | 'n'     | 'an'           
+6       | 'o'     | 'n'     | 'on'           
+7       | 'e'     | 'r'     | 'er'           
+8       | 'a'     | 't'     | 'at'           
+9       | 'e'     | 'n'     | 'en'           
+10      | 'd'     | ' '     | 'd '           
+11      | 'a'     | 'l'     | 'al'           
+12      | 'in'    | 'g'     | 'ing'          
+13      | 'o'     | 'r'     | 'or'           
+14      | 'r'     | 'e'     | 're'           
+15      | ','     | ' '     | ', '           
+16      | 'a'     | 'r'     | 'ar'           
+17      | 't'     | ' '     | 't '           
+18      | 't'     | 'i'     | 'ti'           
+19      | 'ing'   | ' '     | 'ing '         
+20      | 'y'     | ' '     | 'y '           
+
+--- Last 20 Merges ---
+Merge # | Token 1   | Token 2        | Resulting Token      
+--------+-----------+----------------+----------------------
+7723    | 'models ' | 'to the '      | 'models to the '     
+7724    | 'models ' | 'like '        | 'models like '       
+7725    | 'models ' | 'must '        | 'models must '       
+7726    | 'models ' | 'trained on\n' | 'models trained on\n'
+7727    | 'po'      | 'st'           | 'post'               
+7728    | 'po'      | 'or '          | 'poor '              
+7729    | 'po'      | 'ol'           | 'pool'               
+7730    | 'sh'      | 'ap'           | 'shap'               
+7731    | 'sh'      | 'are '         | 'share '             
+7732    | 'comp'    | 'il'           | 'compil'             
+7733    | 'comp'    | 'li'           | 'compli'             
+7734    | 'comp'    | 'lic'          | 'complic'            
+7735    | 'ed'      | '.'            | 'ed.'                
+7736    | 'ed'      | '. '           | 'ed. '               
+7737    | 'ed'      | 'uc'           | 'educ'               
+7738    | 'with '   | 'a\n'          | 'with a\n'           
+7739    | 'with '   | 'task '        | 'with task '         
+7740    | 'with '   | 'scale '       | 'with scale '        
+7741    | 'with '   | 'increasing '  | 'with increasing '   
+7742    | 'ma'      | 'z'            | 'maz'                
+
+**Round-trip Fidelity (50 samples):** 100.00%
+
+**Single Document Round-trip Example:**
+  - **Original:** Generative AI systems across modalities, ranging from text, image, audio, and
+video, have broad social impacts, but there exists no official standard for
+means of evaluating those impacts and which impacts should be evaluated. We
+move toward a standard approach in evaluating a generative AI system for any
+modality, in two overarching categories: what is able to be evaluated in a base
+system that has no predetermined application and what is able to be evaluated
+in society. We describe specific social impact categories and how to approach
+and conduct evaluations in the base technical system, then in people and
+society. Our framework for a base system defines seven categories of social
+impact: bias, stereotypes, and representational harms; cultural values and
+sensitive content; disparate performance; privacy and data protection;
+financial costs; environmental costs; and data and content moderation labor
+costs. Suggested methods for evaluation apply to all modalities and analyses of
+the limitations of existing evaluations serve as a starting point for necessary
+investment in future evaluations. We offer five overarching categories for what
+is able to be evaluated in society, each with their own subcategories:
+trustworthiness and autonomy; inequality, marginalization, and violence;
+concentration of authority; labor and creativity; and ecosystem and
+environment. Each subcategory includes recommendations for mitigating harm. We
+are concurrently crafting an evaluation repository for the AI research
+community to contribute existing evaluations along the given categories. This
+version will be updated following a CRAFT session at ACM FAccT 2023.
+  - **Decoded:** Generative AI systems across modalities, ranging from text, image, audio, and
+video, have broad social impacts, but there exists no official standard for
+means of evaluating those impacts and which impacts should be evaluated. We
+move toward a standard approach in evaluating a generative AI system for any
+modality, in two overarching categories: what is able to be evaluated in a base
+system that has no predetermined application and what is able to be evaluated
+in society. We describe specific social impact categories and how to approach
+and conduct evaluations in the base technical system, then in people and
+society. Our framework for a base system defines seven categories of social
+impact: bias, stereotypes, and representational harms; cultural values and
+sensitive content; disparate performance; privacy and data protection;
+financial costs; environmental costs; and data and content moderation labor
+costs. Suggested methods for evaluation apply to all modalities and analyses of
+the limitations of existing evaluations serve as a starting point for necessary
+investment in future evaluations. We offer five overarching categories for what
+is able to be evaluated in society, each with their own subcategories:
+trustworthiness and autonomy; inequality, marginalization, and violence;
+concentration of authority; labor and creativity; and ecosystem and
+environment. Each subcategory includes recommendations for mitigating harm. We
+are concurrently crafting an evaluation repository for the AI research
+community to contribute existing evaluations along the given categories. This
+version will be updated following a CRAFT session at ACM FAccT 2023.
+  - **Success:** True
+
+---
+
+## Analysis for Vocab Size: 32000
+
+**Training Time:** 1788.84 seconds
+
+--- First 20 Merges ---
+Merge # | Token 1 | Token 2 | Resulting Token
+--------+---------+---------+----------------
+1       | 'e'     | ' '     | 'e '           
+2       | 'i'     | 'n'     | 'in'           
+3       | 's'     | ' '     | 's '           
+4       | 't'     | 'h'     | 'th'           
+5       | 'a'     | 'n'     | 'an'           
+6       | 'o'     | 'n'     | 'on'           
+7       | 'e'     | 'r'     | 'er'           
+8       | 'a'     | 't'     | 'at'           
+9       | 'e'     | 'n'     | 'en'           
+10      | 'd'     | ' '     | 'd '           
+11      | 'a'     | 'l'     | 'al'           
+12      | 'in'    | 'g'     | 'ing'          
+13      | 'o'     | 'r'     | 'or'           
+14      | 'r'     | 'e'     | 're'           
+15      | ','     | ' '     | ', '           
+16      | 'a'     | 'r'     | 'ar'           
+17      | 't'     | ' '     | 't '           
+18      | 't'     | 'i'     | 'ti'           
+19      | 'ing'   | ' '     | 'ing '         
+20      | 'y'     | ' '     | 'y '           
+
+--- Last 20 Merges ---
+Merge # | Token 1      | Token 2                               | Resulting Token                                
+--------+--------------+---------------------------------------+------------------------------------------------
+31723   | 'potential ' | 'method for '                         | 'potential method for '                        
+31724   | 'potential ' | 'risk '                               | 'potential risk '                              
+31725   | 'potential ' | 'application '                        | 'potential application '                       
+31726   | 'potential ' | 'risks '                              | 'potential risks '                             
+31727   | 'potential ' | 'mitigation '                         | 'potential mitigation '                        
+31728   | 'potential ' | 'societal biases in '                 | 'potential societal biases in '                
+31729   | 'potential ' | 'commercial '                         | 'potential commercial '                        
+31730   | 'potential ' | 'clim'                                | 'potential clim'                               
+31731   | 'potential ' | 'pit'                                 | 'potential pit'                                
+31732   | 'potential ' | 'and limitations of '                 | 'potential and limitations of '                
+31733   | 'potential ' | 'in using '                           | 'potential in using '                          
+31734   | 'potential ' | 'harms, and provide a framework for ' | 'potential harms, and provide a framework for '
+31735   | 'fair'       | '\nto '                               | 'fair\nto '                                    
+31736   | 'fair'       | 'seq'                                 | 'fairseq'                                      
+31737   | 'addres'     | 'sed by '                             | 'addressed by '                                
+31738   | '\nand '     | 'achieve '                            | '\nand achieve '                               
+31739   | '\nand '     | 'Ne'                                  | '\nand Ne'                                     
+31740   | '\nand '     | 'semantic '                           | '\nand semantic '                              
+31741   | '\nand '     | 'how to '                             | '\nand how to '                                
+31742   | '\nand '     | 'reasoning skill'                     | '\nand reasoning skill'                        
+
+**Round-trip Fidelity (50 samples):** 100.00%
+
+**Single Document Round-trip Example:**
+  - **Original:** Recent work has demonstrated that increased training dataset diversity
+improves general cross-domain knowledge and downstream generalization
+capability for large-scale language models. With this in mind, we present
+\textit{the Pile}: an 825 GiB English text corpus targeted at training
+large-scale language models. The Pile is constructed from 22 diverse
+high-quality subsets -- both existing and newly constructed -- many of which
+derive from academic or professional sources. Our evaluation of the untuned
+performance of GPT-2 and GPT-3 on the Pile shows that these models struggle on
+many of its components, such as academic writing. Conversely, models trained on
+the Pile improve significantly over both Raw CC and CC-100 on all components of
+the Pile, while improving performance on downstream evaluations. Through an
+in-depth exploratory analysis, we document potentially concerning aspects of
+the data for prospective users. We make publicly available the code used in its
+construction.
+  - **Decoded:** Recent work has demonstrated that increased training dataset diversity
+improves general cross-domain knowledge and downstream generalization
+capability for large-scale language models. With this in mind, we present
+\textit{the Pile}: an 825 GiB English text corpus targeted at training
+large-scale language models. The Pile is constructed from 22 diverse
+high-quality subsets -- both existing and newly constructed -- many of which
+derive from academic or professional sources. Our evaluation of the untuned
+performance of GPT-2 and GPT-3 on the Pile shows that these models struggle on
+many of its components, such as academic writing. Conversely, models trained on
+the Pile improve significantly over both Raw CC and CC-100 on all components of
+the Pile, while improving performance on downstream evaluations. Through an
+in-depth exploratory analysis, we document potentially concerning aspects of
+the data for prospective users. We make publicly available the code used in its
+construction.
+  - **Success:** True
+
+---
+
+## Final Summary
+
+Vocab Size | Mean Seq. Len | 5th P-tile | 95th P-tile | Bytes/Token | Comp. Ratio
+-----------+---------------+------------+-------------+-------------+------------
+1000       | 397.99        | 222.10     | 630.80      | 2.91        | 1.00       
+2000       | 300.80        | 168.20     | 487.00      | 3.85        | 0.76       
+4000       | 234.86        | 127.10     | 372.90      | 4.93        | 0.59       
+8000       | 187.27        | 102.10     | 294.80      | 6.18        | 0.47       
+32000      | 109.70        | 62.00      | 172.90      | 10.55       | 0.28       
